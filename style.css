@@ -475,14 +475,14 @@ input:active {
 .div1 h1 {
   color: rgba(255, 0, 0, 0.687);
 }
-button {
+#but {
   height: 50px;
   width: 30%;
   background-color: red;
   border: none;
   cursor: pointer;
 }
-button:hover {
+#but:hover {
   background-color: orange;
   color: black;
   transition: all ease 0.5s;
@@ -505,7 +505,7 @@ button:hover {
     width: 90%;
     margin: 5% 0%;
   }
-  .div2 button {
+  .div2 #but {
     width: 93%;
   }
   .newsbg {
@@ -775,4 +775,74 @@ button:hover {
         width: 90%;
         margin: 10% 0;
     }
+}
+.footbg{
+    background-image: url(./images/foot.webp);
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+}
+.ftblur{
+    height: auto;
+    width: 100%;
+    backdrop-filter: blur(4px);
+}
+.logoft{
+    width: 60%;
+    text-align: center;
+}
+.logoft h4{
+    padding: 10% 0;
+    font-size: 1.3rcap;
+}
+
+.box2 a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    transition: .3s ease-in-out;
+
+
+}
+.box2 a:hover{
+    color: #7aa6ff;
+    transform: scale(1.1);
+}
+.box3{
+    /* background-color: #7aa6ff; */
+    width: 20%;
+
+    
+}
+.box3 p{
+    color: white;
+    
+}
+.box3 p i{
+    margin: 0 1%;
+    transition: .3s ease-in-out;
+}
+.box3 p:hover i{
+    color: #7aa6ff;
+    transform: rotate(360deg);
+}
+
+.boxs{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10%;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.copyright p{
+    color: white;
+}
+.copyright p i{
+    margin: 0 2%;
+}
+.copyright{
+  text-align: center;
+  padding-top: 24%;
+
 }
