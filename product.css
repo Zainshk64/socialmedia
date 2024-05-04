@@ -95,5 +95,33 @@
         height: 170px;
         width: 170px;
     }
-    
+    .textpro{
+      padding-top: 30%;
+    }
+    .prohome {
+      background-position: center;
+    }
+    .textpro p{
+      width: 100%;
+      font-size: 1.3rcap;
+    }
+    .textpro h1{
+      font-size: 2rcap;
+    }
+    .filterdetails h3{
+      font-size: 2rcap;
+      margin: 10% 0;
+    }
+    .filterDiv{
+      margin: 10% 0;
+    }
+    #myBtnContainer{
+      text-align: center;
+    }
+    #myBtnContainer button{
+      display: block;
+      /* margin: auto; */
+      margin: 4% 10%;
+
+    }
 }
