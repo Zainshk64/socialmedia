@@ -1,0 +1,398 @@
+.links .right a{
+    /* display: block; */
+    font-size: 2rcap;
+    margin-right: 5%;
+}
+.links .right #fb:hover i{
+    color: #7aa6ff;
+}
+.links .right #insta:hover i{
+    color: #ec7750;
+}
+.links .right #twitter:hover i{
+    color: #4483ff;
+}
+.links .right #yt:hover i{
+    color: #cc6060;
+}
+
+.form
+{
+    height: auto;
+    width: 100%;
+    /* background-color: rgba(128, 128, 128, 0.408); */
+    padding-top: 10%;
+}
+
+
+
+
+/* faq */
+
+
+.faq {
+    margin-left: 10%;
+}
+
+.namefaq {
+    height: 55px;
+    width: 50%;
+    /* background-color: #c9c3c3; */
+    border-bottom: 3px solid rgba(0, 0, 0, 0.074);
+}
+
+.namefaq h1 {
+    height: 55px;
+    width: 18%;
+    font-size: 40px;
+    margin-left: 5px;
+    border-bottom: 3px solid black;
+    color: black;
+
+}
+
+.namefaq h1:hover {
+    border-bottom: 5px solid #4483ff;
+
+
+}
+/*  */
+.collaps {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.collapsible {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 15px;
+    width: 50%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 24px;
+}
+
+.content {
+    height: 105px;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    width: 47.1%;
+    background-color: #f1f1f163;
+
+}
+
+.content p {
+    margin-top: 10px;
+}
+
+
+.collapsible:hover {
+    background-color: #ccc;
+    color: white;
+    border: 1px solid black;
+    transition: all ease 1s;
+}
+.collapsible::after {
+    content: '\2795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+    color: white;
+    
+}
+
+.active::after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}
+
+
+@media screen and (min-width:180px) and (max-width:800px) {
+    .namefaq h1 {
+        font-size: 30px;
+        width: 20%;
+    }
+
+    .faq {
+        margin-top: 15%;
+        width: 100%;
+    }
+
+    .collapsible {
+        font-size: 16px;
+    }
+
+    .content {
+        width: 41.4%;
+        height: auto;
+    }
+
+
+}
+
+
+
+.namecont {
+    height: 55px;
+    width: 80%;
+    /* background-color: #c9c3c3; */
+    border-bottom: 3px solid rgba(0, 0, 0, 0.074);
+    margin-left: 10%;
+}
+
+.namecont h1 {
+    height: 55px;
+    width: 30%;
+    font-size: 38px;
+    margin-left: 5px;
+    border-bottom: 3px solid black;
+    color: black;
+}
+
+.namecont h1:hover {
+    border-bottom: 5px solid rgb(245, 144, 72);
+
+}
+
+@media screen and (min-width:200px) and (max-width:900px) {
+    .namecont h1 {
+        width: 50%;
+
+        font-size: 25px;
+    }
+}
+
+/* contact form */
+.contactform {
+    height: auto;
+    width: 100%;
+
+    background-color: #44444429;
+    padding-top: 5%;
+
+}
+
+.contactwhite {
+    height: auto;
+    width: auto;
+    margin: 10px 20px;
+
+    background-color: rgb(247, 246, 247);
+
+
+}
+
+.maillocationflex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.maildivwithtext {
+    display: flex;
+    padding-top: 5%;
+}
+
+.maildivwithtext .emailicon {
+    height: 80px;
+    width: 90px;
+    margin-left: 10px;
+    background-color: #ccc;
+}
+
+.maildivwithtext .emailicon p {
+    text-align: center;
+    font-size: 28px;
+}
+
+.maildivwithtext .emailicon p i {
+    margin-top: 21px;
+    color: black;
+}
+
+.maildivwithtext .emailicon p i:hover {
+    color: white;
+    transition: all ease 1s
+}
+
+.maildivwithtext .insidetext {
+    margin-left: 20px;
+}
+
+.maildivwithtext .insidetext h2 {
+    margin-bottom: 4px;
+    font-size: large;
+    color: black;
+
+}
+
+.maildivwithtext:hover .insidetext h2 {
+    color: rgb(245, 144, 72);
+    opacity: 0.8;
+    transition: all ease 0.6s
+}
+
+@media screen and (min-width:200px) and (max-width:800px) {
+    .maildivwithtext .insidetext h2 {
+        font-size: 20px;
+
+    }
+
+    .maildivwithtext .insidetext p {
+        font-size: 14px;
+    }
+
+    .maildivwithtext .emailicon {
+        height: 64px;
+        width: 80px;
+    }
+
+
+}
+
+
+/* input flield contact */
+
+.input1flex {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.input1flex input {
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+}
+
+/* .input1flex input::-webkit-input-placeholder{
+    padding-left: 30px;
+  } */
+
+.input1flex #email {
+    height: 55px;
+    color: black;
+    width: 40%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+}
+
+#fname:focus {
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+}
+
+/* #email1:focus {
+    border-left: 4px solid black;
+    border: none;
+    outline: none;
+} */
+
+
+#fname1:focus {
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+}
+
+#fname2:focus {
+    border-left: 4px solid black;
+    /* border: none; */
+    outline: none;
+}
+
+.input1flex #email:focus {
+    border: none;
+    outline: none;
+    border-left: 4px solid black;
+
+
+}
+
+input[type="text"] {
+    padding-left: 30px;
+}
+
+input[type="email"] {
+    padding-left: 30px;
+}
+input[type="time"] {
+    padding-left: 30px;
+}
+input[type="date"] {
+    padding-left: 30px;
+}
+
+textarea[id="fname2"] {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+input[type="number"] {
+    padding-left: 30px;
+}
+
+/*  */
+.inputoption {
+    text-align: center;
+}
+
+.inputoption textarea {
+    color: black;
+    font-size: 20px;
+    width: 80%;
+
+    background-color: #ccc;
+    border: none;
+
+    margin-left: 10px;
+}
+
+
+
+.inputsubj input {
+    height: 55px;
+    color: black;
+    width: 83%;
+    font-size: 20px;
+    background-color: #ccc;
+    border: none;
+    margin-left: 10px;
+}
+
+#smsg {
+    height: 50px;
+    width: 150px;
+    font-size: 17px;
+    background-color: rgb(244, 143, 70);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1%;
+
+}
+
+#smsg:hover {
+    background-color: #444;
+    transition: all ease 1s;
+
+}
+
+#linkbut a{
+    text-decoration: none;
+
+}

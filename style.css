@@ -760,6 +760,9 @@ input:active {
 
 
 }
+.insta img{
+  height: 100px;
+}
 
 @media screen and (max-width: 800px) {
     .item1{
@@ -769,16 +772,17 @@ input:active {
         display: none;
     }
     .itempic1{
-        width: 100%;
+        /* width: 100%; */
     }
     .itemtext{
         width: 90%;
         margin: 10% 0;
     }
+   
 }
 .footbg{
     background-image: url(./images/foot.webp);
-    height: 750px;
+    height: auto;
     width: 100%;
     background-size: cover;
 }
@@ -835,6 +839,7 @@ input:active {
     flex-wrap: wrap;
     align-content: center;
 }
+
 .copyright p{
     color: white;
 }
@@ -844,5 +849,39 @@ input:active {
 .copyright{
   text-align: center;
   padding-top: 24%;
+  padding-bottom: 5%;
+
+}
+
+/*  */
+::-webkit-scrollbar{
+  background-color: rgb(233, 228, 228);
+  width: 0.8rem;
+}
+::-webkit-scrollbar-thumb{
+  height: 10rcap;
+  background-color: #7aa6ff;
+}
+::-webkit-scrollbar-thumb:hover{
+  background-color: #a4bae8;
+  
+
+}
+
+@media screen and (max-width: 800px) {
+  .box2, .box3 , .logoft{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 5% 0;
+
+  }
+
+  .copyright p{
+    text-align: center;
+    /* padding-top: -20%; */
+    color: black;
+  
+  }
 
 }

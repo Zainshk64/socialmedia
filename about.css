@@ -1,0 +1,160 @@
+.hero{
+    /* background-color: grey; */
+    background-image: url(./images/about.jpg);
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* padding-top: 10%; */
+
+}
+.blur{
+    height: auto;
+    width: 100%;
+    backdrop-filter: blur(6px);
+    padding: 13%;
+
+}
+.tophead{
+    width: 70%;
+}
+.tophead p {
+    /* width:50%; */
+    margin: 0 9%;
+    font-weight: 300;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    height: 500px;
+    flex-wrap: wrap;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.logo1{
+    background-image: url(./images/2023_Facebook_icon.svg.png);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+.logo2{
+    background-image: url(./images/Instagram_logo_2022.svg.png);
+    height: 150px;
+    width: 150px;
+    background-size: cover;
+    align-self:flex-start;
+}
+.logo3{
+    background-image: url(./images/X_logo_2023.svg.png);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+#log{
+    margin: 10% 0;
+    transition: .3s ease-in-out;
+}
+#log:hover{
+    transform: scale(1.1);
+}
+#img {
+    background-image: url(./images/slid2.webp);
+    height: 700px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* filter:blur(1px) */
+  }
+
+  .carousel-control-prev-icon
+{
+    color: black;
+}
+
+#slider{
+    width: 40%;
+    margin: auto;
+}
+#img2 {
+    background-image: url(./images/slid\ 1.webp);
+    height: 700px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* filter:blur(1px) */
+  }
+
+  #img1 {
+    background-image: url(./images/slid3.webp);
+    height: 700px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* filter:blur(1px) */
+  }
+
+
+  .center{
+    text-align: center;
+}
+.center h2{
+    width: 15%;
+    margin: auto;
+
+}
+.center h2 p{
+    color:rgb(77, 231, 255)
+}
+
+.center a,h1{
+    color: black;
+
+}
+.center a{
+    text-decoration: none;
+    
+    
+}
+.center a h1{
+    background: url(./images/th.jpg) no-repeat;
+    background-clip:content-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-position: bottom;
+    color: transparent;
+     font-size: 4rcap;
+     margin: 3% 0;
+     transition: background-position ease-in-out 0.2s ;
+
+}
+.center a h1:hover{
+    background-position: center;
+
+}
+.center .p11{
+    opacity: 0.5;
+    font-family: cursive;
+
+}
+@media screen and (max-width:800px) {
+    .center h2{
+        width: 35%;
+    }
+    .center a h1{
+        font-size: 2.3rcap;
+    }
+    
+    .center .p11{
+        width: 90%;
+        margin: auto;
+    }
+    .center{
+        width: 100%;
+    }
+}
+
