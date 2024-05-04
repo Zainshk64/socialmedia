@@ -178,13 +178,60 @@
 
             <div class="anchbutton">
 
-                <a href="https://en.wikipedia.org/wiki/Social_media">
-                    <p>Read More</p>
-                </a>
-
+                <button id="openModalBtn">Sell Your Account</button>
+                
+                
             </div><br>
 
+
+
         </div>
+
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>Validation Form</h2>
+                <form id="validationForm">
+                    <!-- Your form fields here -->
+                    <input type="name" name="name" placeholder="Enter Accout Title" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="text" name="" placeholder="Total followers" required>
+                    <input type="number" name="number" placeholder="Account price ">
+                    <input type="text" name="" placeholder="Paste Your Link">
+
+
+                    <button type="submit" id="openModalBtn">Submit</button>
+                </form>
+            </div>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById("myModal");
+
+            // Get the button that opens the modal
+            var btn = document.getElementById("openModalBtn");
+
+            // Get the <span> element that closes the modal
+            var span = document.getElementsByClassName("close")[0];
+
+            // When the user clicks the button, open the modal 
+            btn.onclick = function () {
+                modal.style.display = "block";
+            }
+
+            // When the user clicks on <span> (x), close the modal
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+
+        </script>
         <br>
     </section>
     <br>
@@ -297,7 +344,7 @@
 
     </section>
     <section id="sec">
-       
+
 
         <!-- item 1 -->
 
@@ -313,8 +360,9 @@
                 <div class="text">
 
                     <h4>FACEBOOK</h4>
-                    <p class="paraitem">A Facebook account with a 10k followers , Most of the post hit more more and likes as well</p>
-                    
+                    <p class="paraitem">A Facebook account with a 10k followers , Most of the post hit more more and
+                        likes as well</p>
+
                     <a href="/product.html"> Read More</a>
 
                 </div>
@@ -334,7 +382,7 @@
             </div>
 
         </div>
-        
+
 
         <div class="item1">
 
@@ -348,8 +396,9 @@
                 <div class="text">
 
                     <h4 style="color: rgb(255, 128, 0);">INSTAGRAM</h4>
-                    <p class="paraitem">A Instagram account with a 1.5M followers , Maximum post hit million views  and likes as well</p>
-                    
+                    <p class="paraitem">A Instagram account with a 1.5M followers , Maximum post hit million views and
+                        likes as well</p>
+
                     <a href="/product.html"> Read More</a>
 
                 </div>
@@ -383,8 +432,9 @@
                 <div class="text">
 
                     <h4 style="color: rgb(52, 53, 55);">TWITTER</h4>
-                    <p class="paraitem">A twitter account with a 199K followers , Maximum post hit 150K+ likes as well</p>
-                    
+                    <p class="paraitem">A twitter account with a 199K followers , Maximum post hit 150K+ likes as well
+                    </p>
+
                     <a href="/product.html"> Read More</a>
 
                 </div>
@@ -417,8 +467,9 @@
                 <div class="text">
 
                     <h4 style="color: rgb(52, 53, 55);">Youtube</h4>
-                    <p class="paraitem">A youtube account with a 199K followers , Maximum post hit 150K+ likes as well</p>
-                    
+                    <p class="paraitem">A youtube account with a 199K followers , Maximum post hit 150K+ likes as well
+                    </p>
+
                     <a href="/product.html"> Read More</a>
 
                 </div>
@@ -452,7 +503,7 @@
                             <h4>Web Trade Treasure</h4>
 
 
-                        </div> 
+                        </div>
 
 
 
@@ -485,9 +536,9 @@
 
                 </div>
                 <br>
-               <div class="copyright">
-                <p><i class="fa-regular fa-copyright"></i>CopyRight | All reserved WTT(Web Trade Treasure) 2024</p>
-               </div>
+                <div class="copyright">
+                    <p><i class="fa-regular fa-copyright"></i>CopyRight | All reserved WTT(Web Trade Treasure) 2024</p>
+                </div>
             </div>
 
         </div>
