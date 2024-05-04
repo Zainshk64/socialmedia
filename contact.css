@@ -32,6 +32,7 @@
 
 .faq {
     margin-left: 10%;
+    
 }
 
 .namefaq {
@@ -67,7 +68,7 @@
     color: #444;
     cursor: pointer;
     padding: 15px;
-    width: 50%;
+    width: auto;
     border: none;
     text-align: left;
     outline: none;
@@ -120,7 +121,8 @@
 
     .faq {
         margin-top: 15%;
-        width: 100%;
+        width: 80%;
+        background-color: #444;
     }
 
     .collapsible {
@@ -128,7 +130,7 @@
     }
 
     .content {
-        width: 41.4%;
+        width: 50%;
         height: auto;
     }
 
