@@ -121,6 +121,7 @@ label {
     display: block;
     text-align: center;
     line-height: 80px;
+    font-size: 30px;
   }
   #bar {
     display: block;
@@ -771,9 +772,7 @@ input:active {
     .dashes{
         display: none;
     }
-    .itempic1{
-        /* width: 100%; */
-    }
+   
     .itemtext{
         width: 90%;
         margin: 10% 0;
